@@ -67,7 +67,7 @@ export default class ComponentsBuilder{
             screen: this.#screen,
             input: this.#input
         }
-        return components
+        return components/**/ */
     }
 
 }
