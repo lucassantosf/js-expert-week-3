@@ -13,11 +13,16 @@ export default class TerminalController{
         }
     }
 
+    #registerEvents(eventEmitter,components){ 
+        eventEmitter.on('message:received') 
+    }
+
     async initializeTable(eventEmitter){
         const components = new ComponentsBuilder()
             .setScreen({title:'Hacker Chat'})
             .setLayoutComponent()
             .setInputComponent(this.#onInputReceveid(eventEmitter))
+            .setChatComponent()
             .build()
             
         components.input.focus()

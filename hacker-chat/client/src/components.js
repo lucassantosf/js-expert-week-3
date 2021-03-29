@@ -5,6 +5,7 @@ export default class ComponentsBuilder{
     #screen
     #layout
     #input
+    #chat
 
     constructor(){}
 
@@ -62,12 +63,25 @@ export default class ComponentsBuilder{
         return this
     }
 
+    setChatComponent(){
+        this.#chat = blessed.list({
+            ...this.#baseComponent(),
+            parent: this.#layout,
+            align: 'left',
+            width: '50%',
+            height: '90%',
+            items: ['{bold}Messenger{/}']
+        })
+
+        return this
+    }
+
     build(){
         const components = {
             screen: this.#screen,
             input: this.#input
         }
-        return components/**/ */
+        return components
     }
 
 }
