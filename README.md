@@ -10,7 +10,8 @@ Para executar a aplicação, existem duas possibilidades, localmente ou pela int
 
 ### 1.1 - Requisitos de ambiente
 
--Node 15^~
+-Node 15^
+
 -Npm
 
 ### 1.2 - Como executar:
@@ -53,9 +54,9 @@ instalar o mesmo globalmente através do Npm.js. Para isto, execute em seu termi
 
 ( com isto, o comando 'hacker-chat' será registrado como comando global na máquina)
 
-- hacker-chat --username <seu nome> (para entrar no chat)
+- hacker-chat --username < seu nome > (para entrar no chat)
 
-- hacker-chat --username <seu nome> (Em outro terminal aberto, execute somente este comando para entrar no chat com outro usuário)
+- hacker-chat --username < seu nome > (Em outro terminal aberto, execute somente este comando para entrar no chat com outro usuário)
 
 - Envie mensagens: 
 
@@ -65,7 +66,7 @@ instalar o mesmo globalmente através do Npm.js. Para isto, execute em seu termi
 
 O lado servidor está hospedado no [Heroku.com](https://www.heroku.com/) e o cliente esta registrado como um pacote oficial [npmjs](https://www.npmjs.com/) que publiquei em minha conta.
 
-Ambas aplicações foram feitas o processo de deploy no dia 08-04-2021, então caso a execução deste projeto pela internet não funcione nesta etapa, é devido à não disponibilidade de alguns destes serviços.
+Ambas aplicações foram feitas o processo de deploy no dia 08-04-2021, então caso a execução deste projeto pela internet não funcione nesta etapa posteriormente esta data, é devido à não disponibilidade de algum destes serviços no momento.
 
 ### 2.1 - Observações - 2
 
