@@ -31,7 +31,7 @@ export default class ComponentsBuilder{
             smartCSR: true,
             title
         })
-        this.#screen.key(['escape','q','C-c'],()=>process.exit(0))
+        this.#screen.key(['escape','q','C-c'],()=>proccess.exit(0))
         return this
     }
 
